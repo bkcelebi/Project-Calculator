@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 350px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: white;
+    box-shadow: 0 0 5rem gray;
+}
+
+.display{
+    background-color: #2f2d2e;
+    flex: 1.5;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.func{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+}
+
+.basic{
+    background-color: #f6990d;
+}
+
+.funcTop{
+    background-color: #434142;
+}
+
+.buttons{
+    display: flex;
+    flex: 1;
+
+}
+
+.button{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid gray;
+}
+
+.number{
+    background-color: #626062;
+}
+
+.buttonZero{
+    display: flex;
+    flex: 2;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid gray;
+    border-bottom-left-radius: 15px;
+}
+
+.buttonEqual{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid gray;
+    border-bottom-right-radius: 15px;
+}
