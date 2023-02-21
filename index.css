@@ -26,10 +26,33 @@ main{
 }
 
 .display{
+    display: flex;
     background-color: #2f2d2e;
     flex: 1.5;
     border-top-right-radius: 15px;
     border-top-left-radius: 15px;
+    flex-direction: column;
+}
+
+.lastOperationScreen{
+    display: flex;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    flex: 1.5;
+    justify-content: flex-end; 
+    align-items: end; 
+    padding-right: 5px; 
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.currentOperationScreen{
+    display: flex;
+    flex: 2.5;
+    justify-content: flex-end; 
+    align-items: end; 
+    padding-right: 5px; 
+    font-size: 30px;
 }
 
 .func{
@@ -39,7 +62,7 @@ main{
     border-radius: 15px;
 }
 
-.basic{
+.funcbtn{
     background-color: #f6990d;
 }
 
@@ -59,6 +82,11 @@ main{
     justify-content: center;
     align-items: center;
     border: 0.5px solid gray;
+    cursor: pointer;
+}
+
+.button:hover{
+    opacity: 50%;
 }
 
 .number{
