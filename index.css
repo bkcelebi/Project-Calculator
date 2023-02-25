@@ -62,11 +62,14 @@ main{
     border-radius: 15px;
 }
 
-.funcbtn{
+.funcbtn,
+.buttonEqual{
     background-color: #f6990d;
 }
 
-.funcTop{
+.ac,
+.negative,
+.percentage{
     background-color: #434142;
 }
 
@@ -89,7 +92,8 @@ main{
     opacity: 50%;
 }
 
-.number{
+.number,
+.point{
     background-color: #626062;
 }
 
