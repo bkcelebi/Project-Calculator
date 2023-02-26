@@ -11,10 +11,7 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: url("./assets/numberrain.jpeg");
-    background-repeat:repeat-x;
-    /* background-size: 30%; */
-    /* background-position: center; */
+    background-image: url("./assets/numberrain2.png");
 }
 
 main{
@@ -94,7 +91,7 @@ main{
 }
 
 .button:hover{
-    opacity: 50%;
+    opacity: 80%;
 }
 
 .number,
@@ -129,7 +126,7 @@ footer{
     gap: 10px;
     width: 250px;
     height: 5%;
-    background-color: #6cd2ae;
+    background-color: #bfbfbf;
     border-radius: 7px;
 }
 
