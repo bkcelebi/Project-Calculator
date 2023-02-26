@@ -11,7 +11,8 @@ body{
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background-image: url("./assets/numberrain2.png");
+    background-image: url("./assets/numberrain3.png");
+    background-repeat: repeat-x;
 }
 
 main{
@@ -126,7 +127,6 @@ footer{
     gap: 10px;
     width: 250px;
     height: 5%;
-    background-color: #bfbfbf;
     border-radius: 7px;
 }
 
