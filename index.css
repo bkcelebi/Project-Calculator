@@ -125,8 +125,8 @@ footer{
     align-items: center;
     justify-content: center;
     gap: 10px;
-    width: 250px;
-    height: 5%;
+    width: auto;
+    height: auto;
     border-radius: 7px;
 }
 
