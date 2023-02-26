@@ -5,11 +5,16 @@
 }
 
 body{
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100vh;
-    display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url("./assets/numberrain.jpeg");
+    background-repeat:repeat-x;
+    /* background-size: 30%; */
+    /* background-position: center; */
 }
 
 main{
@@ -113,4 +118,24 @@ main{
     align-items: center;
     border: 0.5px solid gray;
     border-bottom-right-radius: 15px;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 250px;
+    height: 5%;
+    background-color: #6cd2ae;
+    border-radius: 7px;
+}
+
+footer a{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 5px;
 }
